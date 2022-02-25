@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Блиф о партнерстве</title>
+    <link rel="stylesheet" href="./css/slyle.css">
+    <script src="./js/OSC.js"></script>    
+</head>
+
+<body>
+    <header class="header">
+        <div class="wrapper">
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="intro">
+            <div class="wrapper">
+                <h1 class="intro__title">
+                    БРИФ ДЕЛОВОГО ПАРТНЕРСТВА
+                </h1>
+            </div>
+        </section>
+        <section class="survey-form">
+            <div class="wrapper">
+                <form action="" class="data-form">
+                    <fieldset class="survey-form__wrap">
+                        <p class="survey-form__blok"> Ваше имя и фамилия
+                            <input type="text" class="survey-form__field" name="user-name"
+                                placeholder="Как к вам обращаться?" required>
+                        </p>
+                    </fieldset>
+                    <fieldset class="survey-form__wrap">
+                        <p class="survey-form__blok"> Ваш email
+                            <input type="email" class="survey-form__field" name="user-email"
+                                placeholder="Как вам написать?" required>
+                        </p>
+                    </fieldset>
+                    <fieldset class="survey-form__wrap">
+                        <p class="survey-form__blok"> Ваш телефон
+                            <input type="tel" class="survey-form__field" name="user-phone"
+                                placeholder="Как вам позвонить?" required>
+                        </p>
+                    </fieldset>
+                    <fieldset class="survey-form__wrap">
+                        <p class="survey-form__blok"> Ваши соцсети
+                            <select name="user-social-name" id="" class="survey-form__field multiblok">
+                                <option value="instagram" selected>Instagram</option>
+                                <option value="vk">VKontakte</option>
+                                <option value="facebook">Facebook</option>
+                                <option value="twitter">Twitter</option>
+                            </select>
+                            <input type="text" class="survey-form__field" name="user-social-value multiblok"
+                                placeholder="Как вас найти?">
+                           <!--  <input type="button" class="survey-form__buttom" value="Добавить"> -->
+                        </p>
+                    </fieldset>
+                    <fieldset class="survey-form__wrap">
+                        <p class="survey-form__blok"> Ваш опыт в запусках
+                            <select name="user-launch-experience" id="select-experience" class="survey-form__field multiblok">
+                                <option value="no" selected>Запусков не было</option>
+                                <option value="yes">Были запуски</option>
+                            </select>
+                            <textarea name="user-launch-note" id="textarea-experience" class="survey-form__textarea" cols="30" rows="10" hidden></textarea>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <input type="submit" name="submit" class="survey-form__buttom" value="Отправить">
+                    </fieldset>
+                </form>
+            </div>
+
+        </section>
+    </main>
+    <script src="./js/control.js"></script>
+</body>
+
+</html>
