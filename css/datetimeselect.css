@@ -1,0 +1,50 @@
+:root {
+    --height: 28px;
+    --font-size: 14px;
+}
+
+.datetimeselect {
+    position: relative;
+}
+
+.datetimeselect__input {
+    display: flex;
+    justify-content: space-between;
+    height: var(--height);
+}
+
+.datetimeselect__dropdown__wraper {
+    display: none;
+    position: absolute;
+    top: var(--height);
+    left: 0;
+    right: 0;
+    border-style: solid;
+    border-color: #96C8ED;
+    border-width: 1px 0px 1px;
+    /* padding-top: 5px; */
+    padding-bottom: 10px;    
+    font-weight: 400;
+    color: #15499F;    
+    background-color: #e6effd;
+}
+
+.datetimeselect__dropdown {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    overflow-y: auto;    
+    align-content: space-between;
+    max-height: 114px;   
+}
+
+.datetimeselect__btn {
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 7px;
+}
+
+.datetimeselect.open .datetimeselect__dropdown__wraper {
+    display: block;
+    border-top: 0px;
+}
