@@ -310,7 +310,8 @@ p.social-block {
     width: 30%;
     height: 27px; 
     text-align: center;
-    font-size: 25px;    
+    font-size: 25px;
+    text-decoration:  inherit;  
 }
 
 .social-link:hover, .social-link:active{
