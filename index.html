@@ -30,45 +30,45 @@
                 <form class="data-form" id="data-form">
                     <fieldset class="survey-form__wrap">
                         <p class="survey-form__blok"> Ваше имя и фамилия</p>
-                        <input type="text" class="survey-form__field" name="user-name"
-                            placeholder="Как к вам обращаться?" required>
+                        <input type="text" class="survey-form__field" name="fio"
+                            placeholder="Иван Иванов" required>
                     </fieldset>
                     <fieldset class="survey-form__wrap">
                         <p class="survey-form__blok"> Ваш email</p>
-                        <input type="email" class="survey-form__field" name="user-email" placeholder="Как вам написать?"
+                        <input type="email" class="survey-form__field" name="email" placeholder="example@mail.ru"
                             required>
                     </fieldset>
                     <fieldset class="survey-form__wrap">
                         <p class="survey-form__blok"> Ваш телефон</p>
-                        <input type="tel" class="survey-form__field" name="user-phone" placeholder="Как вам позвонить?"
-                            required>
+                        <input type="tel" class="survey-form__field" name="phone" placeholder="+7(999)123-45-67"
+                         required>
                     </fieldset>
                     <fieldset class="survey-form__wrap">
                         <p class="survey-form__blok"> Ваши соцсети</p>
-                        <select name="user-social-name" id="" class="survey-form__field multiblok">
+                        <select name="social_name" id="" class="survey-form__field multiblok">
                             <option value="instagram" selected>Instagram</option>
                             <option value="vk">VKontakte</option>
                             <option value="facebook">Facebook</option>
                             <option value="twitter">Twitter</option>
                         </select>
-                        <input type="text" class="survey-form__field" name="user-social-value multiblok"
+                        <input type="text" class="survey-form__field multiblok" name="social_account"
                             placeholder="Как вас найти?">
                         <!--  <input type="button" class="survey-form__buttom" value="Добавить"> -->
 
                     </fieldset>
                     <fieldset class="survey-form__wrap">
                         <p class="survey-form__blok"> Ваша ниша</p>
-                        <input type="text" class="survey-form__field" name="user-niche" placeholder="В чем вы эксперт?"
+                        <input type="text" class="survey-form__field" name="niche" placeholder="В чем вы эксперт?"
                             required>
                     </fieldset>
                     <fieldset class="survey-form__wrap">
                         <p class="survey-form__blok"> Ваш опыт в запусках</p>
-                        <select name="user-launch-experience" id="select-experience"
+                        <select name="launch_experience" id="select-experience"
                             class="survey-form__field multiblok">
-                            <option value="no" selected>Запусков не было</option>
-                            <option value="yes">Были запуски</option>
+                            <option value="false" selected>Запусков не было</option>
+                            <option value="true">Были запуски</option>
                         </select>
-                        <textarea name="user-launch-note" id="textarea-experience" class="survey-form__textarea"
+                        <textarea name="launch_note" id="textarea-experience" class="survey-form__textarea"
                             cols="30" rows="10" hidden
                             placeholder="Опишите ваш курс. Какой результат был на последнем запуске? Запускали сами или с командой? Работали ли вы с продюсером? Когда планируете следующий запуск?"></textarea>
                     </fieldset>                    
