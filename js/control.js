@@ -13,7 +13,7 @@ O("data-form").addEventListener("submit", afterSubmit);
 function afterSubmit(e) {
     e.preventDefault();
 
-    let url = "https://webhook.site/f7f02a37-9189-4235-8702-9af64b3fd801"; // "https://script.google.com/macros/s/AKfycbzr9ln_SdipUwEFhRdu8aDdVL3ayZRFJKvvbc5x/exec"; //
+    let url =  "https://script.google.com/macros/s/AKfycbzr9ln_SdipUwEFhRdu8aDdVL3ayZRFJKvvbc5x/exec"; //"https://webhook.site/f7f02a37-9189-4235-8702-9af64b3fd801";
 
 
     let data = {
@@ -52,9 +52,9 @@ function afterSubmit(e) {
 
     fetch(url, options)
         .then(response => {
-            console.log(response.ok);
+           // console.log(response.ok);
             //if (response.ok)
-            //    window.location.href = "./pages/respons.html";
+              window.location.href = "./pages/respons.html";
         })
         .catch((error) => {
             console.log('Error:', error);
