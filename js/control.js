@@ -54,7 +54,7 @@ function afterSubmit(e) {
         .then(response => {
            // console.log(response.ok);
             //if (response.ok)
-              window.location.href = "./pages/respons.html";
+              window.location.href = "../pages/respons.html";
         })
         .catch((error) => {
             console.log('Error:', error);
